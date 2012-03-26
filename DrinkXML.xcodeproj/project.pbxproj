@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37F98A1514C5D22200FC76FB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37F98A1414C5D22200FC76FB /* UIKit.framework */; };
+		37F98A1714C5D22200FC76FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37F98A1614C5D22200FC76FB /* Foundation.framework */; };
+		37F98A1914C5D22200FC76FB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37F98A1814C5D22200FC76FB /* CoreGraphics.framework */; };
+		37F98A1F14C5D22200FC76FB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 37F98A1D14C5D22200FC76FB /* InfoPlist.strings */; };
+		37F98A2114C5D22200FC76FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F98A2014C5D22200FC76FB /* main.m */; };
+		37F98A2514C5D22200FC76FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F98A2414C5D22200FC76FB /* AppDelegate.m */; };
+		37F98A2814C5D22200FC76FB /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F98A2714C5D22200FC76FB /* MasterViewController.m */; };
+		37F98A2B14C5D22200FC76FB /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F98A2A14C5D22200FC76FB /* DetailViewController.m */; };
+		37F98A2E14C5D22200FC76FB /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37F98A2C14C5D22200FC76FB /* MasterViewController.xib */; };
+		37F98A3114C5D22200FC76FB /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37F98A2F14C5D22200FC76FB /* DetailViewController.xib */; };
+		37F98A4514C5D57500FC76FB /* List.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F98A4414C5D57500FC76FB /* List.m */; };
+		37F98A4814C5D5EA00FC76FB /* Parser.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F98A4714C5D5EA00FC76FB /* Parser.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		37F98A1014C5D22200FC76FB /* DrinkXML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrinkXML.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37F98A1414C5D22200FC76FB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		37F98A1614C5D22200FC76FB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		37F98A1814C5D22200FC76FB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		37F98A1C14C5D22200FC76FB /* DrinkXML-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DrinkXML-Info.plist"; sourceTree = "<group>"; };
+		37F98A1E14C5D22200FC76FB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		37F98A2014C5D22200FC76FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		37F98A2214C5D22200FC76FB /* DrinkXML-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DrinkXML-Prefix.pch"; sourceTree = "<group>"; };
+		37F98A2314C5D22200FC76FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		37F98A2414C5D22200FC76FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		37F98A2614C5D22200FC76FB /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		37F98A2714C5D22200FC76FB /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		37F98A2914C5D22200FC76FB /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		37F98A2A14C5D22200FC76FB /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		37F98A2D14C5D22200FC76FB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController.xib; sourceTree = "<group>"; };
+		37F98A3014C5D22200FC76FB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController.xib; sourceTree = "<group>"; };
+		37F98A4314C5D57500FC76FB /* List.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = List.h; sourceTree = "<group>"; };
+		37F98A4414C5D57500FC76FB /* List.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = List.m; sourceTree = "<group>"; };
+		37F98A4614C5D5EA00FC76FB /* Parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parser.h; sourceTree = "<group>"; };
+		37F98A4714C5D5EA00FC76FB /* Parser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Parser.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37F98A0D14C5D22200FC76FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37F98A1514C5D22200FC76FB /* UIKit.framework in Frameworks */,
+				37F98A1714C5D22200FC76FB /* Foundation.framework in Frameworks */,
+				37F98A1914C5D22200FC76FB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37F98A0514C5D22100FC76FB = {
+			isa = PBXGroup;
+			children = (
+				37F98A1A14C5D22200FC76FB /* DrinkXML */,
+				37F98A1314C5D22200FC76FB /* Frameworks */,
+				37F98A1114C5D22200FC76FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37F98A1114C5D22200FC76FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37F98A1014C5D22200FC76FB /* DrinkXML.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37F98A1314C5D22200FC76FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37F98A1414C5D22200FC76FB /* UIKit.framework */,
+				37F98A1614C5D22200FC76FB /* Foundation.framework */,
+				37F98A1814C5D22200FC76FB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		37F98A1A14C5D22200FC76FB /* DrinkXML */ = {
+			isa = PBXGroup;
+			children = (
+				37F98A2314C5D22200FC76FB /* AppDelegate.h */,
+				37F98A2414C5D22200FC76FB /* AppDelegate.m */,
+				37F98A4314C5D57500FC76FB /* List.h */,
+				37F98A4414C5D57500FC76FB /* List.m */,
+				37F98A4614C5D5EA00FC76FB /* Parser.h */,
+				37F98A4714C5D5EA00FC76FB /* Parser.m */,
+				37F98A2614C5D22200FC76FB /* MasterViewController.h */,
+				37F98A2714C5D22200FC76FB /* MasterViewController.m */,
+				37F98A2914C5D22200FC76FB /* DetailViewController.h */,
+				37F98A2A14C5D22200FC76FB /* DetailViewController.m */,
+				37F98A2C14C5D22200FC76FB /* MasterViewController.xib */,
+				37F98A2F14C5D22200FC76FB /* DetailViewController.xib */,
+				37F98A1B14C5D22200FC76FB /* Supporting Files */,
+			);
+			path = DrinkXML;
+			sourceTree = "<group>";
+		};
+		37F98A1B14C5D22200FC76FB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				37F98A1C14C5D22200FC76FB /* DrinkXML-Info.plist */,
+				37F98A1D14C5D22200FC76FB /* InfoPlist.strings */,
+				37F98A2014C5D22200FC76FB /* main.m */,
+				37F98A2214C5D22200FC76FB /* DrinkXML-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37F98A0F14C5D22200FC76FB /* DrinkXML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37F98A3414C5D22200FC76FB /* Build configuration list for PBXNativeTarget "DrinkXML" */;
+			buildPhases = (
+				37F98A0C14C5D22200FC76FB /* Sources */,
+				37F98A0D14C5D22200FC76FB /* Frameworks */,
+				37F98A0E14C5D22200FC76FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrinkXML;
+			productName = DrinkXML;
+			productReference = 37F98A1014C5D22200FC76FB /* DrinkXML.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37F98A0714C5D22100FC76FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 37F98A0A14C5D22100FC76FB /* Build configuration list for PBXProject "DrinkXML" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 37F98A0514C5D22100FC76FB;
+			productRefGroup = 37F98A1114C5D22200FC76FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37F98A0F14C5D22200FC76FB /* DrinkXML */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37F98A0E14C5D22200FC76FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37F98A1F14C5D22200FC76FB /* InfoPlist.strings in Resources */,
+				37F98A2E14C5D22200FC76FB /* MasterViewController.xib in Resources */,
+				37F98A3114C5D22200FC76FB /* DetailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37F98A0C14C5D22200FC76FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37F98A2114C5D22200FC76FB /* main.m in Sources */,
+				37F98A2514C5D22200FC76FB /* AppDelegate.m in Sources */,
+				37F98A2814C5D22200FC76FB /* MasterViewController.m in Sources */,
+				37F98A2B14C5D22200FC76FB /* DetailViewController.m in Sources */,
+				37F98A4514C5D57500FC76FB /* List.m in Sources */,
+				37F98A4814C5D5EA00FC76FB /* Parser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		37F98A1D14C5D22200FC76FB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37F98A1E14C5D22200FC76FB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		37F98A2C14C5D22200FC76FB /* MasterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37F98A2D14C5D22200FC76FB /* en */,
+			);
+			name = MasterViewController.xib;
+			sourceTree = "<group>";
+		};
+		37F98A2F14C5D22200FC76FB /* DetailViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37F98A3014C5D22200FC76FB /* en */,
+			);
+			name = DetailViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37F98A3214C5D22200FC76FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		37F98A3314C5D22200FC76FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37F98A3514C5D22200FC76FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DrinkXML/DrinkXML-Prefix.pch";
+				INFOPLIST_FILE = "DrinkXML/DrinkXML-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		37F98A3614C5D22200FC76FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DrinkXML/DrinkXML-Prefix.pch";
+				INFOPLIST_FILE = "DrinkXML/DrinkXML-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37F98A0A14C5D22100FC76FB /* Build configuration list for PBXProject "DrinkXML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37F98A3214C5D22200FC76FB /* Debug */,
+				37F98A3314C5D22200FC76FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37F98A3414C5D22200FC76FB /* Build configuration list for PBXNativeTarget "DrinkXML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37F98A3514C5D22200FC76FB /* Debug */,
+				37F98A3614C5D22200FC76FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37F98A0714C5D22100FC76FB /* Project object */;
+}
