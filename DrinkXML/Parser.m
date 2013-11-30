@@ -33,16 +33,14 @@
         theList.drinkID = [[attributeDict objectForKey:@"id"] integerValue];
     
     }
-    
+    else {
+        currentElementValue = [[NSMutableString alloc] init];
+    }
 }
 
 -(void) parser:(NSXMLParser *)parser foundCharacters:(NSString *)string{
     
-    if (!currentElementValue) {
-        currentElementValue = [[NSMutableString alloc] initWithString:string];
-    }
-    else
-        [currentElementValue appendString:string];
+    [currentElementValue appendString:string];
 }
 
 -(void) parser:(NSXMLParser *)parser didEndElement:(NSString *)elementName namespaceURI:(NSString *)namespaceURI qualifiedName:(NSString *)qName{
